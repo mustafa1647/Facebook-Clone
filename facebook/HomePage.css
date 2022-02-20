@@ -1,0 +1,458 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #18191a;
+}
+
+.facebookNav nav{
+    background-color: #242526 !important;
+    height: 52px;
+    border-bottom: rgba(78, 78, 78, 0.678) 0.5px solid;
+
+}
+
+.facebookNav nav a{
+    width: 36px;
+    margin-left: -10px;
+    margin-top: -4px;
+}
+
+.facebookNav nav a img{
+
+    width: 54px;
+    margin-right: 48px !important;
+    
+}
+
+.facebookNav form input{
+    background-color: #3a3b3c;
+    border:  none;
+    border-radius: 20px;
+    height: 36px;
+}
+
+.facebookNav form input::placeholder{
+    font-size: 14px;
+    color: rgb(177, 177, 177);
+}
+
+.navLinks ul li a i{
+    font-size: 20px;
+    color:rgb(160, 160, 160);
+}
+.navLinks ul li{
+    padding-left:  5px;
+    padding-right: 10px;
+}
+
+.navLinks ul li a{
+    padding-left: 35px !important;
+    padding-right: 55px !important;
+}
+
+.navLinks ul li a:hover{
+    background-color: rgba(128, 128, 128, 0.281);
+    border: 0px solid gray;
+    border-radius: 10px;
+}
+
+.navLinks ul{
+    margin-top: 6px;
+    margin-left: 135px !important;
+}
+
+.profileLink{margin-left: 30px;}
+
+.profileLink li a {
+    width: 100px;
+    color: #fff;
+    font-weight: 500;
+  
+}
+
+.userCard{
+    margin-left: 100px;
+}
+
+.userCard li a{
+    margin-left: 2px;
+    margin-right: 2px;
+    
+  
+}
+
+.userCard li a i{
+    margin-top: 6px;
+    font-size: 14px;
+    border: 1px solid none;
+    border-radius: 50%;
+    padding: 8px;
+    background-color: rgba(128, 128, 128, 0.281);
+    color: rgb(228, 228, 228);
+    
+}
+
+/* Surfing */
+
+
+
+.surfing ul a li img{
+    width: 24px;
+    height: 24px;    
+}
+
+
+.surfing ul a li{
+    margin-top: 8px;
+    list-style: none;
+    
+}
+
+.surfing ul li{
+    height: 32px;
+    padding-top: 4px;
+    padding-left: 0px;
+    padding-right: 20px;
+    color: #fff;
+    font-size: 12px;
+    font-family: Segoe UI Historic, Segoe UI, Helvetica, Arial, sans-serif;
+}
+
+.surfing ul li span{
+    margin-left: 5px;
+    font-size: 14px;
+    font-weight: 600;
+    font-family: inherit;
+    color: #e4e6eb;
+}
+
+.surfing ul a li i{ 
+    padding-top: 3px;
+    padding-bottom: 3px;
+    padding-left: 7px;
+    padding-right: 7px;
+    font-size: 18px;
+    border: 1px solid none;
+    border-radius: 50%;
+    background-color: rgba(128, 128, 128, 0.281);
+    margin-left: 2px;
+}
+
+.pull-left hr{
+    background-color: #696a6b !important;
+}
+
+.surfing ul li:hover{
+    border: 1px solid none;
+    background-color: rgba(202, 202, 202, 0.281);
+    border-radius: 5px;
+}
+
+.pull-left h6{
+    color: #b0b3b8;
+    font-size: 15px;
+}
+.pull-left{
+    height: 753px;
+
+}
+
+.pull-left a{
+    list-style: none;
+    text-decoration: none;
+}
+
+.pull-left a li img{
+    width: 24px;
+    height: 24px;
+    border: 1px solid none;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.pull-left a li span{
+    color: rgba(255, 255, 255, 0.767);
+    margin-left: 5px;
+    font-weight: 600;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+
+
+
+.left-footer ul li{
+    float: left;
+    list-style: none;
+    padding: 2px;
+}
+
+.left-footer ul li a:hover{
+    background-color: none !important;
+}
+
+/* page center */
+
+
+
+.storyCard{
+    width: 112px;
+    margin-left: 60px;
+    border:none;
+    background-color: #242526;
+
+   
+}
+
+.storyCard .card{
+    border:none;
+    background-color: #18191a;
+    text-decoration: none;
+
+}
+
+.storyCard img {
+    height: 145px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border:0px solid none;
+    object-fit: cover;
+    background-color: none;
+    z-index: 0;
+    background-color: #242526 !important;
+    text-decoration: none;
+
+
+
+}
+
+.storyCard .card-body{
+    height: 50px;
+    background-color: #242526;
+    border:none;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+
+}
+
+.storyCard span i{
+    position: absolute;
+    color: #2e89ff;
+    border: 2px solid #242526;
+    border-radius: 15px;
+    background-color: #242526;
+    z-index: 2;
+    margin-top: -12px;
+    font-size: 32px;
+    margin-left: 40px;
+}
+
+.storyCard p{
+    font-size: 12px;
+    font-weight: bold;
+    color: rgba(255, 255, 255, 0.767);
+    text-decoration: none;
+
+}
+
+/* share box */
+
+.sharing-box{
+    width: 460px;
+    height: 125px;
+    background-color: #242526;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.sharingInputBox{
+    margin-left: 15px;
+    
+}
+
+.sharingInputBox img{
+    width: 38px;
+    height: 38px;
+    border: 1px solid none;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.sharingInputBox input{
+    background-color: #3a3b3c;
+    border:  none;
+    border-radius: 20px;
+    height: 36px;
+    width: 370px;
+}
+
+.sharingInputBox input::placeholder{
+    font-size: 16px;
+    color: rgb(177, 177, 177);
+    padding-left: 10px;
+}
+
+.sharingInputBox hr{
+    background-color: #696a6b !important;
+    margin-top: -0.1px;
+    width: 420px;
+}
+
+.sharingInputBox ul{
+    margin-left: 2px;
+   
+}
+
+.sharingInputBox ul li{
+    float: left;
+    padding-left: 12px;
+    padding-right:20px;
+    font-size: 14px;
+}
+
+.sharingInputBox ul a li i{
+    border:none;
+    border-radius: 0;
+    background:none;
+    color: #2e89ff;
+}
+
+/* posts */
+
+.facebookPost{
+    background-color: #242526;
+    width: 460px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    margin-top: 30px;
+    
+}
+
+.headImage img{
+    width: 35px;
+    height: 35px;
+    border: 1px solid none;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 15px;
+}
+
+
+.headTexts{
+    line-height: 18px;
+    font-size: 12px;
+
+}
+
+.headTexts p{
+    margin-left: 15px;
+    font-size: 15px;
+    color:#e4e6eb;
+    font-family: inherit;
+
+}
+
+.headTexts a p{
+    padding-left: 45px !important;
+    color: rgb(177, 177, 177);
+    font-size: 12px;
+  
+}
+
+.headTexts a:hover{
+    text-decoration-color: rgb(177, 177, 177);
+
+}
+
+.headTexts span{
+    font-size: 16px;
+    text-decoration: none;
+    color:#e4e6eb !important;
+
+}
+
+.post-content img{
+    width: 461px;
+}
+
+.post-footer ul button{
+    background-color: #242526 !important;
+    border: none;
+
+}
+
+.post-footer ul{
+    border-top: 0.5px solid #696a6b;
+    border-bottom: 0.1px solid #696a6b;
+    padding-top: 2px;
+    padding-bottom: 2px;
+}
+
+
+.post-footer ul li{
+    font-family: sans-serif;
+    float: left;
+    list-style: none;
+     
+
+}
+
+.post-footer ul li i{
+    font-size: 16px;
+}
+
+
+.post-footer button .likebtn{
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.post-footer button .commentbtn{
+    padding-left: 70px;
+    padding-right: 70px;
+}
+.post-footer hr{
+    background-color: #96999c !important;
+
+}
+
+.sharing-box2{
+    width: 460px;
+    height: 125px;
+    background-color: #242526;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+
+.sharingInputBox2{
+    margin-left: 15px;
+    padding-bottom: 10px;
+    
+}
+
+.sharingInputBox2 img{
+    width: 32px;
+    height: 32px;
+    border: 1px solid none;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.sharingInputBox2 input{
+    background-color: #3a3b3c;
+    border:  none;
+    border-radius: 20px;
+    height: 32px;
+    width: 370px;
+    
+}
+
+.sharingInputBox2 input::placeholder{
+    font-size: 16px;
+    color: rgb(177, 177, 177);
+    padding-left: 10px;
+}
